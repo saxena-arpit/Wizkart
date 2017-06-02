@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="** MY MENU **">
+
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/buy"
+            android:icon="@drawable/buy"
+            android:title="BUY" />
+        <item
+            android:id="@+id/postad"
+            android:icon="@drawable/sell"
+            android:title="POST AD." />
+        <item
+            android:id="@+id/settingsactivity"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="SETTINGS" />
+
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/help"
+                android:title="HELP" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/about"
+                android:title="ABOUT" />
+            <item
+                android:id="@+id/log_out"
+                android:icon="@drawable/logout"
+                android:title="LOGOUT" />
+       </group>
+        </menu>
